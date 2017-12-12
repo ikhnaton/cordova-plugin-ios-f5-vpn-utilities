@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-ios-f5-vpn-utilities",
+  "version": "0.0.1",
+  "description": "Plugin to perform some tasks with F5 VPN",
+  "cordova": {
+    "id": "cordova-plugin-ios-f5-vpn-utilities",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikhnaton/cordova-plugin-ios-f5-vpn-utilities.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "ikhnaton@us.ibm.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikhnaton/cordova-plugin-ios-f5-vpn-utilities/issues"
+  },
+  "homepage": "https://github.com/ikhnaton/cordova-plugin-ios-f5-vpn-utilities#readme"
+}
