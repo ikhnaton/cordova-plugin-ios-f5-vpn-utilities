@@ -2,6 +2,6 @@
 
 @interface F5VPN : CDVPlugin
 
-- (void)isEdgeClientInstalled:(CDVInvokedUrlCommand*)command;
+-(void)isEdgeClientInstalled:(CDVInvokedUrlCommand*)command;
 
 @end

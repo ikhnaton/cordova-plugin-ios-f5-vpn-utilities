@@ -3,9 +3,9 @@
 
 @implementation F5VPN
 
-+(void)isEdgeClientInstalled:(CDVInvokedUrlCommand*)command
+-(void)isEdgeClientInstalled:(CDVInvokedUrlCommand*)command
 {
-    BOOL clientInstalled = UIApplication.shared.canOpenURL(@"f5edgeclient://");
+    BOOL clientInstalled = [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString: @"f5edgeclient://"]];
     
     CDVPluginResult* pluginResult = nil;
     

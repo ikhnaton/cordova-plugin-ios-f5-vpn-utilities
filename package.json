@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ios-f5-vpn-utilities",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin to perform some tasks with F5 VPN",
   "cordova": {
     "id": "cordova-plugin-ios-f5-vpn-utilities",
